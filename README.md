@@ -44,7 +44,7 @@ One other thing I did not try was dimensionality reduction.  The input data has 
 features and this might confuse some of the models. I also did not try neural networks as there
 did not seem to be enough data to train such a model well.
 
-However, I felt the results from the SVC model found through grid search, 82% accuracy, were
+However, I felt the results from the SVC model found through grid search, just over 82% accuracy, were
 fairly reasonable.  I was going to compare with the Kaggle leaderboard but it seems ALL the results on the
 leaderboard were "perfect" (score of 1.0) which was suspicious (who survived the Titanic is public
 knowledge, so submitters could have cheated by looking them up, and probably did) so I did not bother.

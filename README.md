@@ -15,14 +15,13 @@ Note that Kaggle data already has a test/train split.   However, there are no re
 from Kaggle so we can only evaluate results by submitting the predicted results for this file to Kaggle.
 
 ## Results
-The best models found were as follows.  Accuracy was computed against held-out test data.
-Note that the grid-search models are actually slightly worse than the default models.
-However, the grid search optimized based on cross-validation as opposed to the held-out test data.
+The best models found were as follows.  Final accuracy was computed against held-out test data.
+Note the grid search optimized based on cross-validation as opposed to the held-out test data.
 Overall, the best results were obtained with an SVC model (with 82% accuracy) found through grid search
 although the models were all quite close to each other, with roughly 80% accuracy.
 | Model                     | Hyperparameters                     | Accuracy | 
 | ------------------------- | ----------------------------------- | -------- |
-| SVC default               | C = 1.0, gamma=scale, kernel=rbf    | 0.799    |
+| SVC default               | C=1.0, gamma=scale, kernel=rbf      | 0.799    |
 | SVC grid search           | C=0.45, degree=3, kernel=poly       | 0.821    |
 | XGBoost                   | defaults                            | 0.804    |
 | Random Forest             | criterion=entropy, n_estimators=10  | 0.782    |

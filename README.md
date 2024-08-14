@@ -18,16 +18,16 @@ from Kaggle so we can only evaluate results by submitting the predicted results 
 ## Results
 The best models found were as follows.  Final accuracy was computed against held-out test data.
 The grid search optimized based on 5-fold cross-validation as opposed to the held-out test data.
-Overall, the best results were obtained with an SVC model (with 82% accuracy) based on a degree-3
+Overall, the best results were obtained with an SVC model (with 82.1% accuracy) based on a degree-3
 polynomial kernel found through grid search.
 However, the models were all quite close to each other, within a few percent of 80% accuracy.
 | Model                     | Hyperparameters                     | Accuracy | 
 | ------------------------- | ----------------------------------- | -------- |
-| SVC default               | C=1.0, gamma=scale, kernel=rbf      | 0.799    |
-| SVC grid search           | C=0.45, degree=3, kernel=poly       | 0.821    |
-| XGBoost                   | defaults                            | 0.804    |
-| Random Forest             | criterion=entropy, n_estimators=10  | 0.782    |
-| Random Forest grid search | criterion=entropy, n_estimators=435 | 0.799    |
+| SVC default               | C=1.0, gamma=scale, kernel=rbf      | 79.9%    |
+| SVC grid search           | C=0.45, degree=3, kernel=poly       | 82.1%    |
+| XGBoost                   | defaults                            | 80.4%    |
+| Random Forest             | criterion=entropy, n_estimators=10  | 78.2%    |
+| Random Forest grid search | criterion=entropy, n_estimators=435 | 79.9%    |
 
 ## Discussion 
 Not all the available data was used; for example, the cabins indicated location and most

@@ -28,7 +28,6 @@ although the models were all quite close to each other, with roughly 80% accurac
 | XGBoost                   | defaults                            | 0.804    |
 | Random Forest             | criterion=entropy, n_estimators=10  | 0.782    |
 | Random Forest grid search | criterion=entropy, n_estimators=435 | 0.799    |
-| ------------------------- | ----------------------------------- | -------- |
 
 ## Discussion 
 We did not use all the available data, for example, the cabins indicated location and most 

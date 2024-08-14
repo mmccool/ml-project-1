@@ -9,7 +9,7 @@ This is a binary classification problem.
 ## Methodology
 Normalize data, do a stratified test/train split, then fit and compare several different models,
 using several different approaches (SVC, XGBoost, Random Forest) with hyperparameter tuning via grid search where appropriate.
-Use cross-validation as well as test-train split to evaluate results and select the best model.
+Use cross-validation as well as accuracy on held-out test data to evaluate results and select the best model.
 See the [Solution Notebook](solution.ipynb) for details.
 
 Note that Kaggle data already has a test/train split.   However, there are no results given for the "test.csv" file

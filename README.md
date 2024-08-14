@@ -7,7 +7,7 @@ Use machine learning to create a model that predicts which passengers survived t
 This is a binary classification problem.   
 
 ## Methodology
-Normalize data, do test/train split, then create and compare several different models,
+Normalize data, do a stratified test/train split, then create and compare several different models,
 using several different approaches (SVC, XGBoost, Random Forest) with hyperparameter tuning via grid search where appropriate.
 Use cross-validation as well as test-train split to evaluate results and select the best model.
 See the [Solution Notebook](solution.ipynb) for details.

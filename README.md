@@ -33,7 +33,7 @@ However, the models were all quite close to each other, within a few percent of 
 Not all the available data was used; for example, the cabins indicated location and most
 importantly the deck which may have been a factor in survival rate.  However, this information had
 many gaps and it was not clear how to imput missing values.  Some of the other missing
-values in the data were odd, for example we found some passengers with missing ages but a
+values in the data were odd, for example some passengers had missing ages but a
 quick Google search was able to discover the missing information.  I elected not to draw in more
 data from outside sources to keep comparisons fair, and instead imputed missing values using average
 values.  I also elected to not try to infer

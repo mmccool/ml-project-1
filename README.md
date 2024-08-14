@@ -16,7 +16,7 @@ from Kaggle so we can only evaluate results by submitting the predicted results 
 
 ## Results
 The best models found were as follows.  Final accuracy was computed against held-out test data.
-Note the grid search optimized based on cross-validation as opposed to the held-out test data.
+Note the grid search optimized based on 5-fold cross-validation as opposed to the held-out test data.
 Overall, the best results were obtained with an SVC model (with 82% accuracy) found through grid search
 although the models were all quite close to each other, with roughly 80% accuracy.
 | Model                     | Hyperparameters                     | Accuracy | 
